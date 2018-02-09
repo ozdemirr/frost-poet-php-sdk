@@ -1,0 +1,15 @@
+{
+  "name": "ozdemirr/frost-poet-php-sdk",
+  "description": "Po.et' s Public Api Frost PHP SDK",
+  "type": "library",
+  "require": {
+    "guzzle/guzzle": "^3.9"
+  },
+  "autoload": {
+    "psr-0": {
+      "FrostApi": "lib/"
+    }
+  },
+  "version": "0.1.0",
+  "license": "GPL-3.0+"
+}
