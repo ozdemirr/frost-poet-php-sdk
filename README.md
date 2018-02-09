@@ -53,9 +53,9 @@ use FrostApi\Model\GetWork;
 
         echo $response->workId;
 
-    }catch (\App\Frost\Exception\UnprocessableEntity $e){
+    }catch (\FrostApi\Exception\UnprocessableEntity $e){
         echo $e->getMessage();
-    }catch (\App\Frost\Exception\Forbidden $e){
+    }catch (\FrostApi\Exception\Forbidden $e){
         echo $e->getCode();
     }
 
